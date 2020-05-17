@@ -5,8 +5,8 @@
   width: 100vw;
   height: 100vh;
   height: -webkit-fill-available;
-  height: -moz-available;
-  height: stretch;
+  /* height: -moz-available; */
+  /* height: stretch; */
   box-sizing: border-box;
   align-items: center;
   padding: 1em;
