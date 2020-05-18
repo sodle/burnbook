@@ -37,6 +37,7 @@ function BurnBox({ text, setText, burning, setBurning }: BurnBoxProps) {
         }
         className={cx("burnbox", { burning })}
         value={text}
+        placeholder="Type out an angry rant..."
         onChange={(e) => setText(e.target.value)}
         onTransitionEnd={(e) => {
           if (burning) {
