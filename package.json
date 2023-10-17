@@ -5,8 +5,8 @@
   "homepage": "https://burnbook.sjodle.com",
   "dependencies": {
     "classnames": "^2.3.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^18",
+    "react-dom": "^18",
     "typescript": "^4"
   },
   "scripts": {
@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
